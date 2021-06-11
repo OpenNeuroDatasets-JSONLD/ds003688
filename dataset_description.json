@@ -20,8 +20,8 @@
     "ReferencesAndLinks": [
         "https://www.biorxiv.org/content/10.1101/2021.06.09.447733"
     ],
-    "DatasetDOI": "10.18112/openneuro.ds003688.v1.0.3",
+    "DatasetDOI": "10.18112/openneuro.ds003688",
     "EthicsApprovals": [
-        "The study was approved by the Medical Ethical Committee of the Utrecht UniversityMedical Center in accordance with the Declaration of Helsinki (2013)"
+        "The study was approved by the Medical Ethical Committee of the Utrecht University Medical Center in accordance with the Declaration of Helsinki (2013)"
     ]
 }
