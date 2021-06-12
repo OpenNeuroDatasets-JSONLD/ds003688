@@ -1,0 +1,55 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "handedness": {
+        "Description": "Dominant hand of the participant according to the Edinburgh Handedness Questionnaire",
+        "Levels": {
+            "R": "right",
+            "L": "left"
+        }
+    },
+    "language_dominance": {
+        "Description": "Language-dominant hemisphere of the participant as tested with one or combination of techniques in specified in language_dominance_technique",
+        "Levels": {
+            "R": "right",
+            "L": "left",
+            "possibly L": "possibly left",
+            "possibly bilateral": "possibly both hemispheres"
+        }
+    },
+    "language_dominance_technique": {
+        "Description": "Technique used to determine the language-dominant hemisphere of the participant",
+        "Levels": {
+            "fTCD": "functional transcranial Doppler sonography",
+            "fMRI": "functional magnetic resonance imaging",
+            "Wada": "intracarotid amobarbital test",
+            "ECS": "electrocortical stimulation"
+        }
+    },
+    "iEEG": {
+        "Description": "Presence of intracranial electroencephalography (iEEG) recordings for the patient",
+        "Levels": {
+            "yes": "yes",
+            "no": "no"
+        }
+    },
+    "fMRI": {
+        "Description": "Presence of functional magnetic resonance imaging (fMRI) recordings for the patient",
+        "Levels": {
+            "yes": "yes",
+            "no": "no"
+        }
+    }
+}
